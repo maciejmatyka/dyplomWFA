@@ -10,7 +10,7 @@ Linux
 - acroread dyplomWFA.pdf
 
 IDE
-http://www.xm1math.net/texmaker/
-http://www.texniccenter.org/
-http://www.winedt.com/
-https://www.texstudio.org/
+- http://www.xm1math.net/texmaker/
+- http://www.texniccenter.org/
+- http://www.winedt.com/
+- https://www.texstudio.org/
