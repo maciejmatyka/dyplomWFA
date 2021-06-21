@@ -5,36 +5,6 @@
 %
 \documentclass[a4paper,12pt,reqno]{article}
 %----------------------------------------------------------
-% This is a sample document for the AMS LaTeX Article Class
-% Class options
-%        -- Point size:  8pt, 9pt, 10pt (default), 11pt, 12pt
-%        -- Paper size:  letterpaper(default), a4paper
-%        -- Orientation: portrait(default), landscape
-%        -- Print size:  oneside, twoside(default)
-%        -- Quality:     final(default), draft
-%        -- Title page:  notitlepage, titlepage(default)
-%        -- Start chapter on left:
-%                        openright(default), openany
-%        -- Columns:     onecolumn(default), twocolumn
-%        -- Omit extra math features:
-%                        nomath
-%        -- AMSfonts:    noamsfonts
-%        -- PSAMSFonts  (fewer AMSfonts sizes):
-%                        psamsfonts
-%        -- Equation numbering:
-%                        leqno(default), reqno (equation numbers are on the right side)
-%        -- Equation centering:
-%                        centertags(default), tbtags
-%        -- Displayed equations (centered is the default):
-%                        fleqn (equations start at the same distance from the right side)
-%        -- Electronic journal:
-%                        e-only
-%------------------------------------------------------------
-% For instance the command
-%          \documentclass[a4paper,12pt,reqno]{amsart}
-% ensures that the paper size is a4, fonts are typeset at the size 12p
-% and the equation numbers are on the right side
-%
 \usepackage{amsfonts}
 \usepackage{graphicx}
 \usepackage{geometry}
@@ -49,6 +19,7 @@
 \usepackage{lipsum}  
 \usepackage{listings}
 \usepackage[toc,page]{appendix}
+\usepackage{url}
 
 \definecolor{codegreen}{rgb}{0.5, 0.09, 0.09}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -109,7 +80,7 @@ Wydział Fizyki i Astronomii\\
 \vspace{0.8cm}
 \vspace{1.8cm}
 
-\Large Jan Kowalski \\
+\Large Jan Dyplomant \\
 \vspace{3.2cm}
 \Large Tytuł mojej pracy dyplomowej \\
 \vspace{1.5cm}
@@ -117,14 +88,15 @@ My diploma thesis title
 \end{center}
 \vspace{3.7cm}
 \begin{flushright}
+\large{ Praca magisterska na kierunku \\Fizyka Komputerowa \\}
 \large{ Praca inżynierska na kierunku \\Informatyka Stosowana i Systemy Pomiarowe \\}
 \vspace{0.5cm}
-\large{ Opiekun \\ dr hab. Maciej Matyka}
+\large{ Opiekun \\ dr hab. Maciej Matyka, prof. UWr}
 \end{flushright}
 \vspace{2.2cm}
 
 \begin{center}
-\large Wrocław, 2019
+\large Wrocław, \today
 \end{center}
 
 \newpage
@@ -137,7 +109,6 @@ My diploma thesis title
 \Large \textbf{Streszczenie}
 \end{flushleft}
 \vspace{1cm}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \
 
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -148,19 +119,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 \end{flushleft}
 \vspace{1cm}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \\
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 \newpage
 
-\section{Lorem Ipsum}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\section{Opis pliku}
 
 
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-\cite{Sukop,Guo}.
+
+W swojej pracy możesz odnosić się do równań np. do równania (\ref{rownanie}) lub do rysunków, zarówno wektorowych, patrz rys. (\ref{logotyp}) jak i bitmapowych (\ref{wahadla}).
+Możesz też z powodzeniem cytować literaturę \cite{Sukop, Guo}. Jeśli chcesz to robić wygodniej załóż tzw, plik bibtex, ale możesz też pracować tak, jak w tym dokumencie.
+Jesli chcesz wklejać adresu z internetu użyj narzędzia url, np \href{https://youtu.be/GYl3ftE208U}{tak}.
+
 
 \subsection{Lorem ipsum}
 
@@ -174,18 +145,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
+
 \begin{equation} 
-f^{1}(x,p,t), 
+\rho\left(\frac{\partial\vec v}{\partial t}+(\vec v\cdot\nabla)\vec v\right) =\rho\vec f - \nabla p + \mu\triangle\vec v, \label{rownanie}
 \end{equation} 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
+
+
+
 \begin{figure}[!ht]%
 \centering
 \includegraphics[scale=0.85]{logo.eps}
-\caption{Caption for the figure lorem ipsum.}%
-\label{Rysunek14}%
+\caption{Podpis rysunku, który jest obrazem wektorowym (EPS). \label{logotyp}}
+\qquad
+\end{figure}   
+
+
+
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=0.8\columnwidth]{pendulums.png}
+\caption{To jest rysunek drugi, kilkadziesiąt wahadeł podwójnych z syntezą dźwięku.\label{wahadla}}%
+%
 \qquad
 \end{figure}   
 
