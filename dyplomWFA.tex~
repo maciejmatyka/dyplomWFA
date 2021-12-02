@@ -132,10 +132,10 @@ W swojej pracy możesz odnosić się do równań np. do równania (\ref{rownanie
 Możesz też z powodzeniem cytować literaturę pojedynczo
 \cite{Matyka2008} lub kilka pozycji na raz
 \cite{Strzelczyk2021,Chorin1968}. Jeśli chcesz to robić wygodniej załóż tzw, plik bibtex, ale możesz też pracować tak, jak w tym dokumencie.
+Jesli chcesz wklejać adresy z internetu użyj narzędzia url, np \href{https://youtu.be/GYl3ftE208U}{tak}.
 
 
-
-\subsection{Praca dyplomowa - poprawki}
+\subsection{Praca dyplomowa}
 
 Przy poprawianiu tekstu pracy pracuję z (luźno stosowanymi) znakami
 korektorskimi, proszę o zapoznanie się z nimi (dokument z opisem w repozytorium).
@@ -187,9 +187,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 \newpage
 
-\bibstyle{plain}
 \bibliography{bibliografia}
 
+\end{thebibliography}
 
 \end{document}
 

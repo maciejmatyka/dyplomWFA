@@ -1,0 +1,762 @@
+
+@article{Strzelczyk2021,
+  title={Meshless Lattice Boltzmann Method on random grids},
+  author={Strzelczyk, Dawid and Matyka, Maciej},
+  journal={{in preparation}},
+  volume={},
+  number={},
+  pages={},
+  year={2022}
+}
+
+
+@article{chorin1968projection,
+  title={Numerical solution of the Navier-Stokes equations},
+  author={Chorin, Alexandre Joel},
+  journal={Mathematics of computation},
+  volume={22},
+  number={104},
+  pages={745--762},
+  year={1968}
+}
+
+@article{kosec2014simulation,
+  title={Simulation of macrosegregation with mesosegregates in binary metallic casts by a meshless method},
+  author={Kosec, G and {\v{S}}arler, B},
+  journal={Engineering analysis with boundary elements},
+  volume={45},
+  pages={36--44},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@article{chorin1967artificial,
+  title = {A numerical method for solving incompressible viscous flow 
+  problems},
+  journal = {Journal of Computational Physics},
+  volume = {2},
+  number = {1},
+  pages = {12-26},
+  year = {1967},
+  issn = {0021-9991},
+  doi = {https://doi.org/10.1016/0021-9991(67)90037-X},
+  url = {https://www.sciencedirect.com/science/article/pii/002199916790037X},
+  author = {Alexandre Joel Chorin},
+}
+
+@article{kosec2008solution,
+  title={Solution of thermo-fluid problems by collocation with local pressure correction},
+  author={Kosec, Gregor and {\v{S}}arler, Bo{\v{z}}idar},
+  journal={International Journal of Numerical Methods for Heat \& Fluid Flow},
+  year={2008},
+  publisher={Emerald Group Publishing Limited}
+}
+
+@article{kosec2008local,
+  title={Local RBF collocation method for Darcy flow},
+  author={Kosec, Gregor and Sarler, B},
+  journal={Computer Modeling in Engineering and Sciences},
+  volume={25},
+  number={3},
+  pages={197},
+  year={2008},
+  publisher={Citeseer}
+}
+
+@article{kosec2018local,
+  title={A local numerical solution of a fluid-flow problem on an irregular domain},
+  author={Kosec, Gregor},
+  journal={Advances in engineering software},
+  volume={120},
+  pages={36--44},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@Book{liu2002mesh,
+  author    = {Liu, Gui-Rong},
+  title     = {Mesh free methods: moving beyond the finite element method},
+  year      = {2002},
+  publisher = {CRC press},
+  doi       = {10.1201/9781420040586},
+}
+
+@book{trobec2015parallel,
+  author = {Trobec, Roman and Kosec, Gregor},
+  publisher = {Springer},
+  title = {Parallel scientific computing: theory, algorithms, and applications of mesh based and meshless methods},
+  year = {2015}
+}
+
+
+@Article{onate2001finite,
+  author    = {O{\~n}ate, Eugenio and Perazzo, F. and Miquel, J.},
+  title     = {{A finite point method for elasticity problems}},
+  journal   = {Computers \& Structures},
+  year      = {2001},
+  volume    = {79},
+  number    = {22--25},
+  pages     = {2151--2163},
+  doi       = {10.1016/s0045-7949(01)00067-0},
+  publisher = {Elsevier},
+}
+
+@InCollection{tiwari2003finite,
+  author    = {Tiwari, Sudarshan and Kuhnert, J{\"o}rg},
+  title     = {Finite pointset method based on the projection method for simulations of the incompressible Navier-Stokes equations},
+  booktitle = {Meshfree methods for partial differential equations},
+  year      = {2003},
+  publisher = {Springer},
+  pages     = {373--387},
+  doi       = {10.1007/978-3-642-56103-0_26},
+}
+
+@article{SlakKosec2019NodeGen,
+  author = {Slak, Jure and Kosec, Gregor},
+  doi = {10.1137/18m1231456},
+  journal = {SIAM Journal on Scientific Computing},
+  number = {5},
+  pages = {A3202–A3229},
+  title = {On generation of node distributions for meshless {PDE} discretizations},
+  volume = {41},
+  year = {2019}
+}
+
+@Article{duh2020fast,
+  author    = {Duh, Urban and Kosec, Gregor and Slak, Jure},
+  journal   = {{SIAM} Journal on Scientific Computing},
+  title     = {Fast variable density node generation on parametric surfaces with application to mesh-free methods},
+  year      = {2021},
+  month     = {jan},
+  number    = {2},
+  pages     = {A980--A1000},
+  volume    = {43},
+  doi       = {10.1137/20m1325642},
+  publisher = {Society for Industrial {\&} Applied Mathematics ({SIAM})},
+}
+
+@article{drake2021implicit,
+  title={Implicit surface reconstruction with a curl-free radial basis function partition of unity method},
+  author={Drake, Kathryn P and Fuselier, Edward J and Wright, Grady B},
+  journal={arXiv preprint arXiv:2101.05940},
+  year={2021}
+}
+
+@Article{gavete2003improvements,
+  author    = {Gavete, L. and Gavete, M. L. and Benito, J. J.},
+  title     = {Improvements of generalized finite difference method and comparison with other meshless method},
+  doi       = {10.1016/S0307-904X(03)00091-X},
+  number    = {10},
+  pages     = {831--847},
+  volume    = {27},
+  journal   = {Applied Mathematical Modelling},
+  publisher = {Elsevier},
+  year      = {2003},
+}
+
+@Article{tolstykh2003using,
+  author    = {Tolstykh, A. I. and Shirobokov, D. A.},
+  title     = {On using radial basis functions in a “finite difference mode” with applications to elasticity problems},
+  journal   = {Computational Mechanics},
+  year      = {2003},
+  volume    = {33},
+  number    = {1},
+  pages     = {68--79},
+  doi       = {10.1007/s00466-003-0501-9},
+  publisher = {Springer},
+}
+
+
+@inproceedings{janvcivc2021p,
+  btitle={p-refined RBF-FD solution of a Poisson problem},
+  author={Jan{\v{c}}i{\v{c}}, Mitja and Slak, Jure and Kosec, Gregor},
+  booktitle={6th Int. Conf. on Smart and Sust. Tech. (SpliTech)},
+  pages={01--06},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{medusa,
+  author = {Slak, Jure and Kosec, Gregor},
+  journal = {ACM Transactions on Mathematical Software},
+  key = {medusa},
+  note = {{ }\url{http://e6.ijs.si/medusa/}},
+  title = {{Medusa: A C++ library for solving PDEs} using strong form mesh-free methods},
+  year = {2021}
+}
+
+@article{slak2018adaptive,
+  author = {Slak, Jure and Kosec, Gregor},
+  doi = {10.1002/nme.6067},
+  journal = {International Journal for Numerical Methods in Engineering},
+  number = {7},
+  pages = {661–686},
+  publisher = {Wiley Online Library},
+  title = {Adaptive radial basis function–generated finite differences method for contact problems},
+  volume = {119},
+  year = {2019}
+}
+
+@Article{wang2012new,
+  author    = {Wang, Cheng-An and Sadat, Hamou and Prax, Christian},
+  title     = {A new meshless approach for three dimensional fluid flow and related heat transfer problems},
+  doi       = {10.1016/j.compfluid.2012.08.017},
+  pages     = {136--146},
+  volume    = {69},
+  journal   = {Computers \& Fluids},
+  publisher = {Elsevier},
+  year      = {2012},
+}
+
+@Article{maksic2019cooling,
+  author    = {Maksi{\'c}, M. and Djurica, V. and Souvent, A. and Slak, J. and Depolli, M. and Kosec, G.},
+  title     = {Cooling of overhead power lines due to the natural convection},
+  journal   = {International Journal of Electrical Power \& Energy Systems},
+  year      = {2019},
+  volume    = {113},
+  pages     = {333--343},
+  issn      = {0142-0615},
+  doi       = {10.1016/j.ijepes.2019.05.005},
+  publisher = {Elsevier},
+}
+
+@Article{janvcivc2019analysis,
+  author    = {Jančič, Mitja and Slak, Jure and Kosec, Gregor},
+  journal   = {Journal of Scientific Computing},
+  title     = {Monomial Augmentation Guidelines for {RBF}-{FD} from Accuracy Versus Computational Time Perspective},
+  year      = {2021},
+  month     = {feb},
+  number    = {1},
+  volume    = {87},
+  doi       = {10.1007/s10915-020-01401-y},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{bayona2017augment,
+  author    = {Bayona, Victor and Flyer, Natasha and Fornberg, Bengt and Barnett, Gregory A.},
+  title     = {On the role of polynomials in {RBF-FD} approximations: {II. N}umerical solution of elliptic {PDE}s},
+  journal   = {J. Comput. Phys.},
+  year      = {2017},
+  volume    = {332},
+  pages     = {257--273},
+  doi       = {10.1016/j.jcp.2016.12.008},
+  publisher = {Elsevier},
+}
+
+@article{Pan2006,
+  title={An evaluation of lattice Boltzmann schemes for porous medium flow simulation},
+  author={Pan, Chongxun and Luo, Li-Shi and Miller, Cass T},
+  journal={Computers \& fluids},
+  volume={35},
+  number={8-9},
+  pages={898--909},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{Abbas2018,
+  title={Laboratory experiment based permeability reduction estimation for enhanced oil recovery},
+  author={Abbas, Azza Hashim and Sulaiman, Wan Rosli Wan and Jaafar, MOHD ZAIDI and Agi, Augustine Aja},
+  journal={Journal of Engineering Science and Technology},
+  volume={13},
+  number={8},
+  pages={2464--2480},
+  year={2018}
+}
+
+@article{Li2005,
+   author = {Wenqing Li and R. Dennis Vigil and Igor A. Beresnev and Pavel Iassonov and Robert Ewing},
+   doi = {10.1016/j.jcis.2005.03.067},
+   issn = {00219797},
+   issue = {1},
+   journal = {Journal of Colloid and Interface Science},
+   keywords = {Acoustic stimulation,Elastic wave stimulation,Enhanced oil recovery,Multiphase flow,Non-aqueous phase liquids,Porous media},
+   pages = {193-199},
+   title = {Vibration-induced mobilization of trapped oil ganglia in porous media: Experimental validation of a capillary-physics mechanism},
+   volume = {289},
+   year = {2005},
+}
+
+@article{Andersen2016,
+  title={A model for reactive flow in fractured porous media},
+  author={Andersen, P{\O} and Evje, S},
+  journal={Chemical Engineering Science},
+  volume={145},
+  pages={196--213},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@article{Gao2012,
+  title={Intensive and extensive nitrogen loss from intertidal permeable sediments of the Wadden Sea},
+  author={Gao, Hang and Matyka, Maciej and Liu, Bo and Khalili, Arzhang and Kostka, Joel E and Collins, Gavin and Jansen, Stefan and Holtappels, Moritz and Jensen, Marlene M and Badewien, Thomas H and others},
+  journal={Limnology and Oceanography},
+  volume={57},
+  number={1},
+  pages={185--198},
+  year={2012},
+  publisher={Wiley Online Library}
+}
+
+@article{Cai2018,
+  title={Water input into the Mariana subduction zone estimated from ocean-bottom seismic data},
+  author={Cai, Chen and Wiens, Douglas A and Shen, Weisen and Eimer, Melody},
+  journal={Nature},
+  volume={563},
+  number={7731},
+  pages={389--392},
+  year={2018},
+  publisher={Nature Publishing Group}
+}
+
+@book{Khalili2010,
+  title={Application of porous media theories in marine biological modeling},
+  author={Khalili, Arzhang and Liu, Bo and Javadi, Khodayar and Morad, Mohammad R and Kindler, Kolja and Matyka, Maciej and Stocker, Roman and Koza, Zbigniew},
+  year={2010},
+  publisher={CRC Press, Boca Raton (FL), USA}
+}
+
+@incollection{Miguel2012,
+  title={Lungs as a natural porous media: architecture, airflow characteristics and transport of suspended particles},
+  author={Miguel, Ant{\'o}nio F},
+  booktitle={Heat and mass transfer in porous media},
+  pages={115--137},
+  year={2012},
+  publisher={Springer}
+}
+
+@article{Matyka2013,
+  title={Wall orientation and shear stress in the lattice Boltzmann model},
+  author={Matyka, Maciej and Koza, Zbigniew and Miros{\l}aw, {\L}ukasz},
+  journal={Computers \& Fluids},
+  volume={73},
+  pages={115--123},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{Gehr1981,
+  title={Design of the mammalian respiratory system. V. Scaling morphometric pulmonary diffusing capacity to body mass: wild and domestic mammals},
+  author={Gehr, Peter and Mwangi, Deter K and Ammann, Alex and Maloiy, Geoffrey MO and Taylor, C Richard and Weibel, Ewald R},
+  journal={Respiration physiology},
+  volume={44},
+  number={1},
+  pages={61--86},
+  year={1981},
+  publisher={Elsevier}
+}
+
+@article{Khanafer2012,
+  title={The role of porous media in modeling fluid flow within hollow fiber membranes of the total artificial lung},
+  author={Khanafer, Khalil and Cook, Keith and Marafie, Alia},
+  journal={Journal of porous media},
+  volume={15},
+  number={2},
+  year={2012},
+  publisher={Begel House Inc.}
+}
+
+@article{Sabet2018,
+  title={Dynamics of miscible nanocatalytic reactive flows in porous media},
+  author={Sabet, Nasser and Raad, Seyed Mostafa Jafari and Hassanzadeh, Hassan and Abedi, Jalal},
+  journal={Physical Review Applied},
+  volume={10},
+  number={5},
+  pages={054033},
+  year={2018},
+  publisher={APS}
+}
+
+@article{Liang2018,
+  title={Effect of dispersion on solutal convection in porous media},
+  author={Liang, Yu and Wen, Baole and Hesse, Marc A and DiCarlo, David},
+  journal={Geophysical Research Letters},
+  volume={45},
+  number={18},
+  pages={9690--9698},
+  year={2018},
+  doi={10.1029/2018GL079849},
+  publisher={Wiley Online Library}
+}
+
+@misc
+{Wikipedia,
+author={Wikipedia.org}
+}
+
+@article{Rashidi96,
+  title={Experimental analysis of pore-scale flow and transport in porous media},
+  author={Rashidi, M and Peurrung, L and Tompson, AFB and Kulp, TJ},
+  journal={Advances in Water Resources},
+  volume={19},
+  number={3},
+  pages={163--180},
+  year={1996},
+  publisher={Elsevier}
+}
+
+@article{Xiong2016,
+  title={Review of pore network modelling of porous media: Experimental characterisations, network constructions and applications to reactive transport},
+  author={Xiong, Qingrong and Baychev, Todor G and Jivkov, Andrey P},
+  journal={Journal of contaminant hydrology},
+  volume={192},
+  pages={101--117},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@article{Matyka2013b,
+  title={Anisotropy of flow in stochastically generated porous media},
+  author={Matyka, Maciej and Koza, Zbigniew and Go{\l}embiewski, Jaros{\l}aw and Kostur, Marcin and Januszewski, Micha{\l}},
+  journal={Physical Review E},
+  volume={88},
+  number={2},
+  pages={023018},
+  year={2013},
+  publisher={APS}
+}
+
+@article{Matyka2017,
+  title={Sediment--Water Interface Flow with the Multiparticle Collision Dynamics},
+  author={Matyka, Maciej},
+  journal={Transport in Porous Media},
+  volume={120},
+  number={3},
+  pages={633--641},
+  year={2017},
+  publisher={Springer}
+}
+
+@article{Carman1997,
+   author = {P. G. Carman},
+   doi = {10.1016/s0263-8762(97)80003-2},
+   issn = {02638762},
+   issue = {1 SUPPL.},
+   journal = {Chemical Engineering Research and Design},
+   publisher = {Institution of Chemical Engineers},
+   title = {Fluid flow through granular beds},
+   volume = {75},
+   year = {1997},
+}
+
+@article{Duda2011,
+  title={Hydraulic tortuosity in arbitrary porous media flow},
+  author={Duda, Artur and Koza, Zbigniew and Matyka, Maciej},
+  journal={Physical Review E},
+  volume={84},
+  number={3},
+  pages={036319},
+  year={2011},
+  publisher={APS}
+}
+
+
+@article{Li2018,
+  title={The effect of permeability on supercritical CO2 diffusion coefficient and determination of diffusive tortuosity of porous media under reservoir conditions},
+  author={Li, Songyan and Qiao, Chenyu and Li, Zhaomin and Hui, Yuting},
+  journal={Journal of CO2 Utilization},
+  volume={28},
+  pages={1--14},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{Desam2018,
+  title={Prediction of swelling behavior of crosslinked maize starch suspensions},
+  author={Desam, Gnana Prasuna and Li, Jinsha and Chen, Guibing and Campanella, Osvaldo and Narsimhan, Ganesan},
+  journal={Carbohydrate polymers},
+  volume={199},
+  pages={331--340},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{Kaiser2018,
+  title={Ion transport limitations in all-solid-state lithium battery electrodes containing a sulfide-based electrolyte},
+  author={Kaiser, N and Spannenberger, S and Schmitt, M and Cronau, M and Kato, Y and Roling, B},
+  journal={Journal of Power Sources},
+  volume={396},
+  pages={175--181},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{Sobieski2018,
+  title={The Path Tracking Method as an alternative for tortuosity determination in granular beds},
+  author={Sobieski, Wojciech and Matyka, Maciej and Go{\l}embiewski, Jaros{\l}aw and Lipi{\'n}ski, Seweryn},
+  journal={Granular Matter},
+  volume={20},
+  number={4},
+  pages={1--14},
+  year={2018},
+  publisher={Springer}
+}
+
+@article{Andrade1999,
+  title={Inertial effects on fluid flow through disordered porous media},
+  author={Andrade Jr, JS and Costa, UMS and Almeida, MP and Makse, HA and Stanley, HE},
+  journal={Physical Review Letters},
+  volume={82},
+  number={26},
+  pages={5249},
+  year={1999},
+  publisher={APS}
+}
+
+@inproceedings{Matyka2012,
+  title={How to calculate tortuosity easily?},
+  author={Matyka, Maciej and Koza, Zbigniew},
+  booktitle={AIP Conference Proceedings 4},
+  volume={1453},
+  number={1},
+  pages={17--22},
+  year={2012},
+  organization={American Institute of Physics}
+}
+
+@article{Wei2015,
+  title={A numerical study on fractal dimensions of current streamlines in two-dimensional and three-dimensional pore fractal models of porous media},
+  author={Wei, Wei and Cai, Jianchao and Hu, Xiangyun and Fan, Ping and Han, QI and Lu, Jinge and Cheng, Chu-Lin and Zhou, Feng},
+  journal={Fractals},
+  volume={23},
+  number={01},
+  pages={1540012},
+  year={2015},
+  publisher={World Scientific}
+}
+
+@article{Luo2014,
+  title={Numerical simulation of tortuosity for fluid flow in two-dimensional pore fractal models of porous media},
+  author={Luo, Liang and Yu, Boming and Cai, Jianchao and Zeng, Xiangfeng},
+  journal={Fractals},
+  volume={22},
+  number={04},
+  pages={1450015},
+  year={2014},
+  publisher={World Scientific}
+}
+
+@article{Jian2011,
+  title={Tortuosity of flow paths through a Sierpinski carpet},
+  author={Jian-Hua, Li and Bo-Ming, Yu},
+  journal={Chinese Physics Letters},
+  volume={28},
+  number={3},
+  pages={034701},
+  year={2011},
+  publisher={IOP Publishing}
+}
+
+@article{Zacarias05,
+  title={Porosity and tortuosity relations as revealed by a mathematical model of biofilm structure},
+  author={Zacarias, GD and Ferreira, CP and Velasco-Hernandez, JX},
+  journal={Journal of theoretical biology},
+  volume={233},
+  number={2},
+  pages={245--251},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@article{Datta13,
+  title={Spatial fluctuations of fluid velocities in flow through a three-dimensional porous medium},
+  author={Datta, Sujit S and Chiang, Harry and Ramakrishnan, TS and Weitz, David A},
+  journal={Physical review letters},
+  volume={111},
+  number={6},
+  pages={064501},
+  year={2013},
+  publisher={APS}
+}
+
+@inproceedings{Matyka2017b,
+  title={The boundary of the laminar water flow in the filter pack of a pumping well},
+  author={Matyka, M. and Madrala, M.},
+  booktitle={Prz. Geol.},
+  volume={65},
+  pages={1334--1338},
+  year={2017}
+}
+
+@article{Matyka16,
+  title={Power-exponential velocity distributions in disordered porous media},
+  author={Matyka, Maciej and Go{\l}embiewski, Jaros{\l}aw and Koza, Zbigniew},
+  journal={Physical Review E},
+  volume={93},
+  number={1},
+  pages={013110},
+  year={2016},
+  publisher={APS}
+}
+
+@MastersThesis{Saramak18,
+    author     =     {Wiktoria Saramak},
+    title     =     {{Velocity distribution function of the fluid flow through Sierpinski carpet}},
+    school     =     {University of Wroclaw, Faculty of Physics and Astronomy},
+    year     =     {2018},
+    }
+    
+ @article{Lopik17,
+  title={The effect of grain size distribution on nonlinear flow behavior in sandy porous media},
+  author={van Lopik, Jan H and Snoeijers, Roy and van Dooren, Teun CGW and Raoof, Amir and Schotting, Ruud J},
+  journal={Transport in Porous Media},
+  volume={120},
+  number={1},
+  pages={37--66},
+  year={2017},
+  publisher={Springer}
+}
+
+@article{Matyka2016,
+  title={Power-exponential velocity distributions in disordered porous media},
+  author={Matyka, Maciej and Go{\l}embiewski, Jaros{\l}aw and Koza, Zbigniew},
+  journal={Physical Review E},
+  volume={93},
+  number={1},
+  pages={013110},
+  year={2016},
+  publisher={APS}
+}
+
+
+
+@article{He1997,
+  title={Lattice Boltzmann method on curvilinear coordinates system: flow around a circular cylinder},
+  author={He, Xiaoyi and Doolen, Gary},
+  journal={Journal of Computational Physics},
+  volume={134},
+  number={2},
+  pages={306--315},
+  year={1997},
+  publisher={Elsevier}
+}
+
+
+@article{He_etal1996,
+abstract = {A new lattice Boltzmann algorithm is proposed to simulate the Navier-Stokes equation on arbitrary nonuniform mesh grids. The new algorithm retains the advantages of the lattice Boltzmann method: parallel of algorithm, ease of programming, and ability to incorporate microscopic interactions. A simulation of flow in a two-dimensional symmetric channel with sudden expansion is carried out using the new algorithm on a nonuniform mesh. The results of the simulation are in excellent agreement with previous experimental and numerical results. {\textcopyright} 1996 Academic Press, Inc.},
+author = {He, Xiaoyi and Luo, Li Shi and Dembo, Micah},
+doi = {10.1006/jcph.1996.0255},
+file = {:home/dawid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/He, Luo, Dembo - 1996 - Some progress in lattice Boltzmann method. Part I. Nonuniform mesh grids.pdf:pdf},
+issn = {00219991},
+journal = {Journal of Computational Physics},
+number = {2},
+pages = {357--363},
+title = {{Some progress in lattice Boltzmann method. Part I. Nonuniform mesh grids}},
+volume = {129},
+year = {1996}
+}
+
+@article{Kramer2017,
+abstract = {The lattice Boltzmann method is a simulation technique in computational fluid dynamics. In its standard formulation, it is restricted to regular computation grids, second-order spatial accuracy, and a unity Courant-Friedrichs-Lewy (CFL) number. This paper advances the standard lattice Boltzmann method by introducing a semi-Lagrangian streaming step. The proposed method allows significantly larger time steps, unstructured grids, and higher-order accurate representations of the solution to be used. The appealing properties of the approach are demonstrated in simulations of a two-dimensional Taylor-Green vortex, doubly periodic shear layers, and a three-dimensional Taylor-Green vortex.},
+author = {Kr{\"{a}}mer, Andreas and K{\"{u}}llmer, Knut and Reith, Dirk and Joppich, Wolfgang and Foysi, Holger},
+doi = {10.1103/PhysRevE.95.023305},
+file = {:home/dawid/OneDrive/Papers/kramer_etal_2017.pdf:pdf},
+issn = {24700053},
+journal = {Physical Review E},
+number = {2},
+pages = {1--12},
+pmid = {28297853},
+title = {{Semi-Lagrangian off-lattice Boltzmann method for weakly compressible flows}},
+volume = {95},
+year = {2017}
+}
+
+@article{Lin2019b,
+abstract = {In this paper, a local radial basis function–based semi-Lagrangian lattice Boltzmann method (RBF-SL-LBM) is proposed. This is a mesh-free method that can be used for the simulation of incompressible flows. In this method, the collision step is performed locally, which is the same as in the standard LBM. In the meanwhile, the steaming step is solved in a semi-Lagrangian framework. The distribution functions at the departure points, which may be not the grid points in general, are computed by the local radial basis function interpolation. Several numerical tests are conducted to validate the present method, including the lid-driven cavity flow, the steady and unsteady flow past a circular cylinder, and the flow past an NACA0012 airfoil. The present results are in good agreement with those published in the previous literature, which demonstrates the capability of RBF-SL-LBM for the simulation of incompressible flows.},
+author = {Lin, Xingjian and Wu, Jie and Zhang, Tongwei},
+doi = {10.1002/fld.4749},
+file = {:home/dawid/OneDrive/Papers/lin_etal_2019.pdf:pdf},
+issn = {10970363},
+journal = {International Journal for Numerical Methods in Fluids},
+keywords = {lattice Boltzmann method,mesh-free,radial basis function,semi-Lagrangian},
+number = {4},
+pages = {198--211},
+title = {{A mesh-free radial basis function–based semi-Lagrangian lattice Boltzmann method for incompressible flows}},
+volume = {91},
+year = {2019}
+}
+
+@article{Fornberg2016,
+annote = {(1) Eqs. 3.1 and 3.3 - interchanging two nodes using RBF interpolation results in not only interchange of the coordinates, at which RBFs values are calculated in $\Phi$matrix (interchange of the matrix's rows) but also in interchange of RBFs centers (interchange of $\Phi$columns) (2) Sec. 3.1.2.1. - important on using piecewise-smooth RBFs as a mean to minimize "wiggles" of interpolant and avoid the neccesity of choosing shape parameter's value},
+author = {Buhmann, Martin},
+doi = {10.1365/s13291-016-0149-y},
+file = {:home/dawid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Buhmann - 2017 - Bengt Fornberg, Natasha Flyer “A Primer on Radial Basis Functions with Applications to the Geosciences”.pdf:pdf},
+issn = {0012-0456},
+journal = {Jahresbericht der Deutschen Mathematiker-Vereinigung},
+keywords = {prio2},
+number = {1},
+pages = {53--58},
+title = {{Bengt Fornberg, Natasha Flyer: “A Primer on Radial Basis Functions with Applications to the Geosciences”}},
+volume = {119},
+year = {2017}
+}
+
+@article{Lin2019,
+abstract = {In this paper, a local radial basis function–based semi-Lagrangian lattice Boltzmann method (RBF-SL-LBM) is proposed. This is a mesh-free method that can be used for the simulation of incompressible flows. In this method, the collision step is performed locally, which is the same as in the standard LBM. In the meanwhile, the steaming step is solved in a semi-Lagrangian framework. The distribution functions at the departure points, which may be not the grid points in general, are computed by the local radial basis function interpolation. Several numerical tests are conducted to validate the present method, including the lid-driven cavity flow, the steady and unsteady flow past a circular cylinder, and the flow past an NACA0012 airfoil. The present results are in good agreement with those published in the previous literature, which demonstrates the capability of RBF-SL-LBM for the simulation of incompressible flows.},
+author = {Lin, Xingjian and Wu, Jie and Zhang, Tongwei},
+doi = {10.1002/fld.4749},
+file = {:home/dawid/OneDrive/Papers/lin_etal_2019.pdf:pdf},
+issn = {10970363},
+journal = {International Journal for Numerical Methods in Fluids},
+keywords = {lattice Boltzmann method,mesh-free,radial basis function,semi-Lagrangian},
+number = {4},
+pages = {198--211},
+title = {{A mesh-free radial basis function–based semi-Lagrangian lattice Boltzmann method for incompressible flows}},
+volume = {91},
+year = {2019}
+}
+
+
+@article{Zhong2018,
+  title={Determination of permeability and inertial coefficients of sintered metal porous media using an isothermal chamber},
+  author={Zhong, Wei and Ji, Xiang and Li, Chong and Fang, Jiwen and Liu, Fanghua},
+  journal={Applied Sciences},
+  volume={8},
+  number={9},
+  pages={1670},
+  year={2018},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+
+@article{Van2017,
+  title={The effect of grain size distribution on nonlinear flow behavior in sandy porous media},
+  author={van Lopik, Jan H and Snoeijers, Roy and van Dooren, Teun CGW and Raoof, Amir and Schotting, Ruud J},
+  journal={Transport in Porous Media},
+  volume={120},
+  number={1},
+  pages={37--66},
+  year={2017},
+  publisher={Springer}
+}
+
+@article{Rao2020,
+  title={Numerical modeling of momentum dispersion in porous media based on the pore scale prevalence hypothesis},
+  author={Rao, Feixiong and Kuznetsov, Andrey V and Jin, Yan},
+  journal={Transport in Porous Media},
+  volume={133},
+  pages={271--292},
+  year={2020},
+  publisher={Springer}
+}
+
+@article{Hill2002,
+  title={Moderate-Reynolds-number flow in a wall-bounded porous medium},
+  author={Hill, Reghan J and Koch, Donald L},
+  journal={Journal of Fluid Mechanics},
+  volume={453},
+  pages={315--344},
+  year={2002},
+  publisher={Cambridge University Press}
+}
+
+@article{Matyka2008,
+  title={Tortuosity-porosity relation in porous media flow},
+  author={Matyka, Maciej and Khalili, Arzhang and Koza, Zbigniew},
+  journal={Physical Review E},
+  volume={78},
+  number={2},
+  pages={026306},
+  year={2008},
+  publisher={APS}
+}
