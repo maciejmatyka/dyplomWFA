@@ -20,6 +20,8 @@
 \usepackage{listings}
 \usepackage[toc,page]{appendix}
 \usepackage{url}
+\usepackage{indentfirst} % pierwszy akapit zawsze z wcięciem
+\usepackage{subcaption}	% kilka zdjęc w jednej lini
 
 \definecolor{codegreen}{rgb}{0.5, 0.09, 0.09}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -126,20 +128,51 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 \section{Opis pliku}
 
-
+Wcięcia tworzy się za pomocą linijki przerwy. W wypadku kiedy tylko pierwszy akapit nie ma wcięcia upewnij się że dodałeś "\textbackslash usepackage\{indentfirst\}" w nagłówku pliku.
 
 W swojej pracy możesz odnosić się do równań np. do równania (\ref{rownanie}) lub do rysunków, zarówno wektorowych, patrz rys. (\ref{logotyp}) jak i bitmapowych (\ref{wahadla}).
+
+Możliwe jest też wstawienie większej ilości obraów w jednej linijce. w takim przypadku cytuje się za pomocą \textbackslash ref\{ref:ref\} (\ref{ref:ref}), oraz \textbackslash subref\{ref:subref\} (\ref{ref:ref}\subref{ref:subref_a}, \ref{ref:ref}\subref{ref:subref_b}, \ref{ref:ref}\subref{ref:subref_c}, \ref{ref:ref}\subref{ref:subref_d}).
+
+\begin{figure}[!ht]%
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{pendulums.png}
+		\caption{Lorem}	
+		\label{ref:subref_a}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{pendulums.png}
+		\caption{ipsum}
+		\label{ref:subref_b}
+	\end{subfigure}%
+	
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{pendulums.png}
+		\caption{dolor}	
+		\label{ref:subref_c}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{pendulums.png}
+		\caption{Wzlotów}
+		\label{ref:subref_d}
+	\end{subfigure}%
+\caption{Wykresy}
+\label{ref:ref}
+\end{figure}
+
 Możesz też z powodzeniem cytować literaturę pojedynczo
 \cite{Matyka2008} lub kilka pozycji na raz
 \cite{Strzelczyk2021,Chorin1968}. Jeśli chcesz to robić wygodniej załóż tzw, plik bibtex, ale możesz też pracować tak, jak w tym dokumencie.
-
-
 
 \subsection{Praca dyplomowa - poprawki}
 
 Przy poprawianiu tekstu pracy pracuję z (luźno stosowanymi) znakami
 korektorskimi, proszę o zapoznanie się z nimi (dokument z opisem w repozytorium).
-
 
 \newpage
 \subsection{Lorem ipsum}
